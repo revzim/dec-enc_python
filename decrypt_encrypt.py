@@ -39,16 +39,21 @@ def get_username_and_pw(u, p):
     user['Password'] = str(p)
     return user
 
-get_username_and_pw(user['Username'], user['Password'])
-pwfile = open('usernames_passwords.txt', 'w+')
+pfile = open('usernames_passwords.txt', 'r+')
+pfile.write(str(get_username_and_pw(user['Username'], user['Password'])))
+pfile.close()
+
+
+pwfile = open('usernames_passwords.txt', 'r+')
 pwfile.read()
 
 for line in pwfile:
+    print line
     if line.__contains__(user):
         print 'Hello, %s welcome!' % (user['Username'])
     else:
         print 'Welcome, first timer, %s!' %s (user['Username'])
-        pfile = open('usernames_passwords.txt', 'a')
+        pfile = open('usernames_passwords.txt', 'r+')
         pfile.write('%s' % (user))
         pfile.close()
 def options_for_user():
@@ -90,4 +95,5 @@ def options_for_user():
     else:
         print "Please either enter 'read messages', 'add message', or 'delete messages'"
         options_for_user()
+    pwfile.close()
 options_for_user()
