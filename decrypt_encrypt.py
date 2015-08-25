@@ -35,8 +35,8 @@ def get_username_and_pw(u, p):
     u = raw_input()
     print 'Please enter your password'
     p = raw_input()
-    user['Username'] = u
-    user['Password'] = p
+    user['Username'] = str(u)
+    user['Password'] = str(p)
     return user
 
 get_username_and_pw(user['Username'], user['Password'])
@@ -48,9 +48,9 @@ for line in pwfile:
         print 'Hello, %s welcome!' % (user['Username'])
     else:
         print 'Welcome, first timer, %s!' %s (user['Username'])
-        pwfile.write('%s' % user)
-        pwfile.close()
-
+        pfile = open('usernames_passwords.txt', 'a')
+        pfile.write('%s' % (user))
+        pfile.close()
 def options_for_user():
     read_message = 'read messages'
     add_message = 'add message'
