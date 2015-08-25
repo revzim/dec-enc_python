@@ -1,5 +1,6 @@
 The message from azim (encoded): cxoK7EURefl+vfQrQ3bvNlJG6w5oRAkhJYoPxAGXCbg=
 The message from azim (encoded): Zv2fZN8+mxhYHE6iBVtMpzdkMqQzgv+LNi4MPRyKm2E=
+<<<<<<< HEAD
 The message from azim (encoded) at 2015-08-24 22:32:26 : qNYI0cGQxqFvQC0WoLAfvuG2BDXr5s2c+MfPXx1yDbI=
 The message from azim (encoded) at 2015-08-24 22:34:53 : uEfECzAQXk3rlm3m6c3FQjr2WCmftFRAWPwh7n2dMpw=
 The message from azim (encoded) at 2015-08-24 22:36:28 : syfCOos4JNKBA8EWRG+IFlrdGnbRueDQa246ULWDwxE=
@@ -19,3 +20,6 @@ The message from azim (encoded) at 2015-08-24 22:52:27 : LFOc698nVwr0xCI2j7G4skc
 The message from andy (encoded) at 2015-08-24 22:52:43 : uoh7F4Id/cUVAF3DVMLFmEEZH/CM/grTRPYfHWCBzAM=
 The message from azim (encoded) at 2015-08-24 22:55:45 : owCIpcP0THfL9h9B3IuOn6dH0+eN1DN7Opgl4f84W9A=
 The message from andyzim (encoded) at 2015-08-24 22:57:59 : 5L+dkqoLJ/hvx2HD5ewcjxgq19qj43W/KeirdD7Sfow=
+=======
+
+>>>>>>> af639a87d799d5989ef37dcebb56017477ed2842
