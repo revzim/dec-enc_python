@@ -1,19 +1,3 @@
 The message from azim (encoded): cxoK7EURefl+vfQrQ3bvNlJG6w5oRAkhJYoPxAGXCbg=
 The message from azim (encoded): Zv2fZN8+mxhYHE6iBVtMpzdkMqQzgv+LNi4MPRyKm2E=
-The message from azim (encoded) at 2015-08-24 22:32:26 : qNYI0cGQxqFvQC0WoLAfvuG2BDXr5s2c+MfPXx1yDbI=
-The message from azim (encoded) at 2015-08-24 22:34:53 : uEfECzAQXk3rlm3m6c3FQjr2WCmftFRAWPwh7n2dMpw=
-The message from azim (encoded) at 2015-08-24 22:36:28 : syfCOos4JNKBA8EWRG+IFlrdGnbRueDQa246ULWDwxE=
-The message from andy (encoded) at 2015-08-24 22:36:58 : m2s3hkEOLxUszlKJMl0eOF94+yS9/VMKGVN6Pov8Vao=
-The message from azim (encoded) at 2015-08-24 22:38:05 : EWs2YgEJMpHwjK+8a/iO/Kf6jGjoO9slZRulHp2FrYo=
-The message from azim (decoded) at 2015-08-24 22:38:52 : ajsdlkfajsdf
-The message from azim (decoded) at 2015-08-24 22:39:59 : add
-The message from azim (decoded) at 2015-08-24 22:47:13 : adjlafsdjflkas
-The message from azim (decoded) at 2015-08-24 22:47:46 : hello, this finally worked!
-The message from dzim (encoded) at 2015-08-24 22:48:17 : yh3+wB89gs3wR8XAL+5RiZz4Vh82mEoyzb+VnYYVQVU=
-The message from azim (decoded) at 2015-08-24 22:49:08 : hello world!
-The message from a[Casdfklasdf (encoded) at 2015-08-24 22:49:27 : NQIpXtgGRHgPq8UwvhH8pWMwLKNgNxmWf3pm59O4jkk=
-The message from azim (encoded) at 2015-08-24 22:50:21 : vAfPUZK+JXs11fCH/Oqv9caX9b9026VIgDN5/waeedg=
-The message from azim (encoded) at 2015-08-24 22:51:10 : a36WYDfMWCuBjv2EfN6/Tivh34AA1GRZatK5nNzSHd8=
-The message from azim (decoded) at 2015-08-24 22:51:46 : hello johnn
-The message from azim (encoded) at 2015-08-24 22:52:27 : LFOc698nVwr0xCI2j7G4skc64KiywkLwwoLjlZ5xkFg=
-The message from andy (encoded) at 2015-08-24 22:52:43 : uoh7F4Id/cUVAF3DVMLFmEEZH/CM/grTRPYfHWCBzAM=
+
