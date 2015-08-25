@@ -52,9 +52,9 @@ def options_for_user():
     read_message = 'read messages'
     add_message = 'add message'
     delete_message = 'delete messages'
-    encode = 'decode'
+    decode = 'decode'
     print 'Hello %s, what would you like to do?' % (user['Username'])
-    print 'Your choices are: %s, %s, or %s' % (read_message, add_message, delete_message, encode)
+    print 'Your choices are: %s, %s, or %s' % (read_message, add_message, delete_message, decode)
     choice = raw_input()
     choice.lower()
     message_file = open('messages.txt', 'r')
