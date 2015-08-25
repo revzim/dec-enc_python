@@ -1,6 +1,7 @@
 from Crypto.Cipher import AES
 import base64
 import os
+import getpass
 
 blk_size = 32
 
@@ -15,11 +16,24 @@ secret = os.urandom(blk_size)
 
 cipher = AES.new(secret)
 
-encoded = Encode(cipher, 'secret messaged: poop')
-print 'Encrypted:', econded
+print 'Please Input your message:',
+user_input = raw_input()
+
+encoded = encode_aes(cipher, user_input)
+print 'You\'re encrypted message:', encoded
 
 #decode
-decoded = DecodeAES(cipher, encoded)
-print 'Decrypted string:', decoded
+decoded = decode_aes(cipher, encoded)
+#print 'Decrypted string:', decoded
+
+print 'Do you want to decrypt your message?'
+user_in = raw_input()
+
+user_in.lower()
+
+if user_in == 'yes':
+    print 'Decoded message is:', decoded
+else:
+    print 'Ok, have a good day!'
 
 
