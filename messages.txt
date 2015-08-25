@@ -17,3 +17,5 @@ The message from azim (encoded) at 2015-08-24 22:51:10 : a36WYDfMWCuBjv2EfN6/Tiv
 The message from azim (decoded) at 2015-08-24 22:51:46 : hello johnn
 The message from azim (encoded) at 2015-08-24 22:52:27 : LFOc698nVwr0xCI2j7G4skc64KiywkLwwoLjlZ5xkFg=
 The message from andy (encoded) at 2015-08-24 22:52:43 : uoh7F4Id/cUVAF3DVMLFmEEZH/CM/grTRPYfHWCBzAM=
+The message from azim (encoded) at 2015-08-24 22:55:45 : owCIpcP0THfL9h9B3IuOn6dH0+eN1DN7Opgl4f84W9A=
+The message from andyzim (encoded) at 2015-08-24 22:57:59 : 5L+dkqoLJ/hvx2HD5ewcjxgq19qj43W/KeirdD7Sfow=
