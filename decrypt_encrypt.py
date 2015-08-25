@@ -40,7 +40,7 @@ def get_username_and_pw(u, p):
     return user
 
 pfile = open('usernames_passwords.txt', 'a')
-pfile.write(str(get_username_and_pw(user['Username'], user['Password'])))
+pfile.write('%s\n' % str(get_username_and_pw(user['Username'], user['Password'])))
 pfile.close()
 
 
