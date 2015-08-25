@@ -52,8 +52,9 @@ def options_for_user():
     read_message = 'read messages'
     add_message = 'add message'
     delete_message = 'delete messages'
+    encode = 'decode'
     print 'Hello %s, what would you like to do?' % (user['Username'])
-    print 'Your choices are: %s, %s, or %s' % (read_message, add_message, delete_message)
+    print 'Your choices are: %s, %s, or %s' % (read_message, add_message, delete_message, encode)
     choice = raw_input()
     choice.lower()
     message_file = open('messages.txt', 'r')
@@ -69,18 +70,24 @@ def options_for_user():
         choice_2 = raw_input()
         if choice_2 == 'encoded':
             print "writing encoded message to messages.txt"
-            f = open('messages.txt', "r+")
+            f = open('messages.txt', "w+")
             f.write('The message from %s (encoded): %s\n' %(user['Username'], encoded))
             f.close()
         else:
             print 'writing decoded message to messages.txt'
-            f = open('messages.txt', 'r+')
+            f = open('messages.txt', 'w+')
             f.write('The message from %s (decoded): %s\n' %(user['Username'], decoded))
             f.close()
     elif choice == delete_message:
         print 'Deleting messages from messages.txt'
         f = open('messages.txt', 'r+')
         f.truncate()
+    elif choice == decode:
+        print 'What message would you like to decode?'
+        user_inp = raw_input()
+        decoded = decode_aes(cipher, user_inp)
+        print 'Decoding message...'
+        print 'The message %s user_inp was decoded to: %s\n' % (user_inp, decoded)
     else:
         print "Please either enter 'read messages', 'add message', or 'delete messages'"
         options_for_user()
