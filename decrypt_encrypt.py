@@ -32,7 +32,10 @@ user_in = raw_input()
 user_in.lower()
 
 if user_in == 'yes':
-    print 'Decoded message is:', decoded
+    print 'Please enter your username:'
+    uname = raw_input()
+    if uname == getpass.getuser():
+        print 'Decrypted message is:', decoded
 else:
     print 'Ok, have a good day!'
 
