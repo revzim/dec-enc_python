@@ -35,7 +35,10 @@ if user_in == 'yes':
     print 'Please enter your username:'
     uname = raw_input()
     if uname == getpass.getuser():
-        print 'Decrypted message is:', decoded
+        file = open('messages.txt', "w+")
+        file.write('The message from %s: %s\n' % (uname, decoded))
+        file.close()
+        print "The file was written to messages.txt, please look to find your message decoded"
 else:
     print 'Ok, have a good day!'
 
